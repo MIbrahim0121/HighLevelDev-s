@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+
+.dancing{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.times{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
