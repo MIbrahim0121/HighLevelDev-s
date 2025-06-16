@@ -129,7 +129,7 @@ const Contact = () => {
                 <span className="text-xl">📞</span> +92 310 4168315
               </p>
               <p className="flex items-center gap-3 !mb-3">
-                <span className="text-xl">📍</span>LAHORE,Pakistan
+                <span className="text-xl">📍</span>Lahore,Pakistan
               </p>
             </div>
           </div>
@@ -143,7 +143,7 @@ const Contact = () => {
               <input type="email" name="email" placeholder="Enter your email" className="md:w-full w-[93%] !p-4 border-1   rounded-md outline-none" />
               <label className="name" htmlFor="">Message</label>
               <textarea name="message" placeholder="Enter your message" className="md:w-full w-[93%] !p-4 border-1   rounded-md outline-none h-32"></textarea>
-              <button type="submit" className="bg-blue-600  hover:bg-blue-bg-gray-100   font-semibold py-3 px-8 rounded-full transition text-white ">Submit now</button>
+              <button type="submit" className="bg-blue-500   font-semibold py-3 px-8 rounded-full transition text-white ">Submit now</button>
             </form>
           </div>
         </div>

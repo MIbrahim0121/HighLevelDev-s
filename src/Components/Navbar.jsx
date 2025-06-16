@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,18 +13,18 @@ const Navbar = () => {
           <div className="flex items-center">
             <span className="text-2xl font-bold text-gray-800">HighLevelDev's</span>
           </div>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-800 hover:text-blue-600 font-medium">Home</a>
-            <a href="#" className="text-gray-800 hover:text-blue-600 font-medium">24/7 Support</a>
-            <a href="#" className="text-gray-800 hover:text-blue-600 font-medium">Automations</a>
-            <a href="#" className="text-gray-800 hover:text-blue-600 font-medium">Funnels & Websites</a>
-            <a href="#" className="text-gray-800 hover:text-blue-600 font-medium">Voice Ai's</a>
-            <a href="#" className="text-gray-800 hover:text-blue-600 font-medium">About Me</a>
-            <a href="#" className="text-gray-800 hover:text-blue-600 font-medium">Testimonials</a>
+            <Link to="#" className="text-gray-800 hover:text-blue-600 font-medium">Home</Link>
+            <Link to="24/7" smooth={true} duration={500} className="text-gray-800 hover:text-blue-600 font-medium">24/7 Support</Link>
+            <Link to="#" className="text-gray-800 hover:text-blue-600 font-medium">Automations</Link>
+            <Link to="#" className="text-gray-800 hover:text-blue-600 font-medium">Funnels & Websites</Link>
+            <Link to="#" className="text-gray-800 hover:text-blue-600 font-medium">Voice Ai's</Link>
+            <Link to="/aboutMe" className="text-gray-800 hover:text-blue-600 font-medium">About Me</Link>
+            <Link to="#" className="text-gray-800 hover:text-blue-600 font-medium">Testimonials</Link>
           </div>
-          
+
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button
@@ -40,7 +42,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Mobile Menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-4 space-y-1">

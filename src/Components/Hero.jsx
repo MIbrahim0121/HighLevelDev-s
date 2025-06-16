@@ -72,14 +72,12 @@ const HeroSection = () => {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-10">
           <button className="bg-black  text-white font-semibold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-lg">
-            Book My Free Session
+            Web Developer
           </button>
           <button className="border-2  bg-black text-white font-semibold py-3 px-8 rounded-lg text-lg transition duration-300">
-            Take Me To Add Ons
-          </button>
-          <a href="#" className="text-white bg-black hover:text-blue-800 font-medium py-3 px-4 text-lg transition duration-300">
-            Request A New Add On
-          </a>
+GHL Expert          </button>
+          <button className="border-2  bg-black text-white font-semibold py-3 px-8 rounded-lg text-lg transition duration-300">
+AI Expert          </button>
         </div>
       </div>
     </div>

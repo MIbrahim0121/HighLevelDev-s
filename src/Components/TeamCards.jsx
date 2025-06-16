@@ -1,26 +1,28 @@
 // TeamCards.jsx
 import React from 'react';
+import ghys from '../assets/ghys.jpeg';
+import ibrahim from '../assets/ibrahim.jpeg';    
+import habib from '../assets/habib.jpg';
 
 const TeamCards = () => {
   const teamData = [
     {
       role: 'Employee',
       name: 'MUHAMMAD IBRAHIM',
-
       position: 'Web Developer',
-      image: 'https://randomuser.me/api/portraits/men/32.jpg',
+      image: ibrahim,
     },
     {
       role: 'Owner',
       name: 'GHAYAS AHMED',
       position: 'GHL Expert',
-      image: 'https://randomuser.me/api/portraits/men/10.jpg',
+      image: ghys,
     },
     {
       role: 'Employee',
       name: 'HABEEB',
       position: 'GHL Expert',
-      image: 'https://randomuser.me/api/portraits/women/44.jpg',
+      image: habib,
     },
   ];
 
